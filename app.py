@@ -7,13 +7,13 @@ load_dotenv()
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
-    page_title="EduGenie",
+    page_title="StudySpark AI",
     page_icon="🎓",
     layout="wide"
 )
 
 # ---------------- HEADER ----------------
-st.title("🎓 EduGenie")
+st.title("🎓 StudySpark AI")
 st.subheader("Google Gemini Powered Learning Assistant")
 
 st.markdown(
@@ -23,7 +23,7 @@ st.markdown(
 st.divider()
 
 # ---------------- SIDEBAR ----------------
-st.sidebar.title("📚 EduGenie Menu")
+st.sidebar.title("📚 StudySpark AI")
 
 menu = st.sidebar.radio(
     "Choose a section",
